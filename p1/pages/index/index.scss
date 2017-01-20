@@ -1,0 +1,32 @@
+@import '../../common/style/mixin';
+
+.g-index {
+  .user_info {
+    padding-top: 80rpx;
+
+    .avt {
+      display: block;
+      width: 250rpx;
+      height: 250rpx;
+      border-radius: 100%;
+      margin: auto;
+    }
+
+    .nick_name {
+      text-align: center;
+      margin-top: 50rpx;
+      font-weight: bold;
+    }
+  }
+
+  .user_motto {
+    text-align: center;
+    margin-top: 60rpx;
+    color: #e7e7e7;
+  }
+
+  .m-hello {
+    text-align: center;
+    margin-top: 30rpx;
+  }
+}

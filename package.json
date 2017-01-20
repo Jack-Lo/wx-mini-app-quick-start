@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cached": "^1.1.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-remember": "^0.3.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-swig": "^0.8.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11"
+  },
+  "name": "wx-mini-app-quick-start",
+  "version": "0.1.0",
+  "description": "微信小程序快速初始化项目。",
+  "main": "index.js",
+  "repository": "git@github.com:jack-Lo/wx-mini-app-quick-start.git",
+  "author": "jack lo",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "clean": "gulp clean",
+    "trans": "gulp trans"
+  }
+}
